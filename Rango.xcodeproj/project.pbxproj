@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03038173201944C200B5E8F0 /* RegisterMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03038172201944C200B5E8F0 /* RegisterMealViewController.swift */; };
+		0303817520194A3D00B5E8F0 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303817420194A3D00B5E8F0 /* ViewController+CoreData.swift */; };
+		03568A54201A76BD00B61FAC /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03568A53201A76BD00B61FAC /* NotificationCenter.framework */; };
+		03568A57201A76BD00B61FAC /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03568A56201A76BD00B61FAC /* TodayViewController.swift */; };
+		03568A5A201A76BD00B61FAC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03568A58201A76BD00B61FAC /* MainInterface.storyboard */; };
+		03568A5E201A76BD00B61FAC /* Rangos.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03568A52201A76BD00B61FAC /* Rangos.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		036629BC20174DF600AF92E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036629BB20174DF600AF92E4 /* AppDelegate.swift */; };
+		036629BE20174DF600AF92E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036629BD20174DF600AF92E4 /* ViewController.swift */; };
+		036629C120174DF600AF92E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036629BF20174DF600AF92E4 /* Main.storyboard */; };
+		036629C420174DF600AF92E4 /* Rango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 036629C220174DF600AF92E4 /* Rango.xcdatamodeld */; };
+		036629C620174DF600AF92E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036629C520174DF600AF92E4 /* Assets.xcassets */; };
+		036629C920174DF600AF92E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036629C720174DF600AF92E4 /* LaunchScreen.storyboard */; };
+		03AA03E0201B456100071F6D /* WidgetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA03DF201B456100071F6D /* WidgetCollectionViewCell.swift */; };
+		03AA03E4201B4C9300071F6D /* Rango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 036629C220174DF600AF92E4 /* Rango.xcdatamodeld */; };
+		03D1D149201A2E1400596DA3 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1D148201A2E1400596DA3 /* MealDetailsViewController.swift */; };
+		03D1D14C201A6F5200596DA3 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1D14B201A6F5200596DA3 /* Alerts.swift */; };
+		03E6A03B20175AA3005CD921 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E6A03A20175AA3005CD921 /* FoodCollectionViewCell.swift */; };
+		743B96FBA3FE060FACD9577E /* Pods_Rango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FDD54E3441D2A05CC39C1C /* Pods_Rango.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03568A5C201A76BD00B61FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036629B020174DF600AF92E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03568A51201A76BD00B61FAC;
+			remoteInfo = Rangos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03568A62201A76BD00B61FAC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03568A5E201A76BD00B61FAC /* Rangos.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03038172201944C200B5E8F0 /* RegisterMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMealViewController.swift; sourceTree = "<group>"; };
+		0303817420194A3D00B5E8F0 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
+		03568A52201A76BD00B61FAC /* Rangos.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Rangos.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		03568A53201A76BD00B61FAC /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		03568A56201A76BD00B61FAC /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		03568A59201A76BD00B61FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		03568A5B201A76BD00B61FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036629B820174DF600AF92E4 /* Rango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rango.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036629BB20174DF600AF92E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036629BD20174DF600AF92E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		036629C020174DF600AF92E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036629C320174DF600AF92E4 /* Rango.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rango.xcdatamodel; sourceTree = "<group>"; };
+		036629C520174DF600AF92E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036629C820174DF600AF92E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036629CA20174DF600AF92E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AA03DF201B456100071F6D /* WidgetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCollectionViewCell.swift; sourceTree = "<group>"; };
+		03AA03E1201B463000071F6D /* Rango.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rango.entitlements; sourceTree = "<group>"; };
+		03AA03E2201B4A8F00071F6D /* Rangos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rangos.entitlements; sourceTree = "<group>"; };
+		03D1D148201A2E1400596DA3 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
+		03D1D14B201A6F5200596DA3 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		03E6A03A20175AA3005CD921 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		64CFC6B39EED0EB4EE6FB478 /* Pods-Rango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rango.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rango/Pods-Rango.release.xcconfig"; sourceTree = "<group>"; };
+		790D2A20EFC49753FA2834C0 /* Pods-Rango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rango/Pods-Rango.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FDD54E3441D2A05CC39C1C /* Pods_Rango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03568A4F201A76BD00B61FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03568A54201A76BD00B61FAC /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036629B520174DF600AF92E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B96FBA3FE060FACD9577E /* Pods_Rango.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0303816E2019449300B5E8F0 /* Register Meal */ = {
+			isa = PBXGroup;
+			children = (
+				03038171201944AC00B5E8F0 /* Controller */,
+			);
+			path = "Register Meal";
+			sourceTree = "<group>";
+		};
+		03038171201944AC00B5E8F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03038172201944C200B5E8F0 /* RegisterMealViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03568A55201A76BD00B61FAC /* Rangos */ = {
+			isa = PBXGroup;
+			children = (
+				03AA03E2201B4A8F00071F6D /* Rangos.entitlements */,
+				03568A56201A76BD00B61FAC /* TodayViewController.swift */,
+				03568A58201A76BD00B61FAC /* MainInterface.storyboard */,
+				03AA03DF201B456100071F6D /* WidgetCollectionViewCell.swift */,
+				03568A5B201A76BD00B61FAC /* Info.plist */,
+			);
+			path = Rangos;
+			sourceTree = "<group>";
+		};
+		036629AF20174DF600AF92E4 = {
+			isa = PBXGroup;
+			children = (
+				036629BA20174DF600AF92E4 /* Rango */,
+				03568A55201A76BD00B61FAC /* Rangos */,
+				036629B920174DF600AF92E4 /* Products */,
+				E83639648976A8CFBA18DF53 /* Pods */,
+				72357ACFACEBF46EF82D1B04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		036629B920174DF600AF92E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036629B820174DF600AF92E4 /* Rango.app */,
+				03568A52201A76BD00B61FAC /* Rangos.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036629BA20174DF600AF92E4 /* Rango */ = {
+			isa = PBXGroup;
+			children = (
+				03AA03E1201B463000071F6D /* Rango.entitlements */,
+				036629BB20174DF600AF92E4 /* AppDelegate.swift */,
+				0303817420194A3D00B5E8F0 /* ViewController+CoreData.swift */,
+				036629D02017558700AF92E4 /* Home */,
+				0303816E2019449300B5E8F0 /* Register Meal */,
+				03D1D145201A2DD500596DA3 /* Meal Details */,
+				03D1D14A201A6F2A00596DA3 /* Components */,
+				036629BF20174DF600AF92E4 /* Main.storyboard */,
+				036629C520174DF600AF92E4 /* Assets.xcassets */,
+				036629C720174DF600AF92E4 /* LaunchScreen.storyboard */,
+				036629CA20174DF600AF92E4 /* Info.plist */,
+				036629C220174DF600AF92E4 /* Rango.xcdatamodeld */,
+			);
+			path = Rango;
+			sourceTree = "<group>";
+		};
+		036629D02017558700AF92E4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				036629D22017559300AF92E4 /* View */,
+				036629D32017559900AF92E4 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		036629D22017559300AF92E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03E6A03A20175AA3005CD921 /* FoodCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		036629D32017559900AF92E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				036629BD20174DF600AF92E4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03D1D145201A2DD500596DA3 /* Meal Details */ = {
+			isa = PBXGroup;
+			children = (
+				03D1D147201A2DFF00596DA3 /* Controller */,
+			);
+			path = "Meal Details";
+			sourceTree = "<group>";
+		};
+		03D1D147201A2DFF00596DA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03D1D148201A2E1400596DA3 /* MealDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03D1D14A201A6F2A00596DA3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				03D1D14B201A6F5200596DA3 /* Alerts.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72357ACFACEBF46EF82D1B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1FDD54E3441D2A05CC39C1C /* Pods_Rango.framework */,
+				03568A53201A76BD00B61FAC /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E83639648976A8CFBA18DF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790D2A20EFC49753FA2834C0 /* Pods-Rango.debug.xcconfig */,
+				64CFC6B39EED0EB4EE6FB478 /* Pods-Rango.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03568A51201A76BD00B61FAC /* Rangos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03568A61201A76BD00B61FAC /* Build configuration list for PBXNativeTarget "Rangos" */;
+			buildPhases = (
+				03568A4E201A76BD00B61FAC /* Sources */,
+				03568A4F201A76BD00B61FAC /* Frameworks */,
+				03568A50201A76BD00B61FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rangos;
+			productName = Rangos;
+			productReference = 03568A52201A76BD00B61FAC /* Rangos.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		036629B720174DF600AF92E4 /* Rango */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036629CD20174DF600AF92E4 /* Build configuration list for PBXNativeTarget "Rango" */;
+			buildPhases = (
+				6F49CA933C1ADDB729C77D27 /* [CP] Check Pods Manifest.lock */,
+				036629B420174DF600AF92E4 /* Sources */,
+				036629B520174DF600AF92E4 /* Frameworks */,
+				036629B620174DF600AF92E4 /* Resources */,
+				E3FE6897317BA69A0789F771 /* [CP] Embed Pods Frameworks */,
+				A931C43D5970751F33A3374B /* [CP] Copy Pods Resources */,
+				03568A62201A76BD00B61FAC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03568A5D201A76BD00B61FAC /* PBXTargetDependency */,
+			);
+			name = Rango;
+			productName = Rango;
+			productReference = 036629B820174DF600AF92E4 /* Rango.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036629B020174DF600AF92E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Andriu;
+				TargetAttributes = {
+					03568A51201A76BD00B61FAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					036629B720174DF600AF92E4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 036629B320174DF600AF92E4 /* Build configuration list for PBXProject "Rango" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036629AF20174DF600AF92E4;
+			productRefGroup = 036629B920174DF600AF92E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036629B720174DF600AF92E4 /* Rango */,
+				03568A51201A76BD00B61FAC /* Rangos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03568A50201A76BD00B61FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03568A5A201A76BD00B61FAC /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036629B620174DF600AF92E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036629C920174DF600AF92E4 /* LaunchScreen.storyboard in Resources */,
+				036629C620174DF600AF92E4 /* Assets.xcassets in Resources */,
+				036629C120174DF600AF92E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F49CA933C1ADDB729C77D27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rango-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A931C43D5970751F33A3374B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rango/Pods-Rango-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FE6897317BA69A0789F771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rango/Pods-Rango-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rango/Pods-Rango-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03568A4E201A76BD00B61FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA03E0201B456100071F6D /* WidgetCollectionViewCell.swift in Sources */,
+				03AA03E4201B4C9300071F6D /* Rango.xcdatamodeld in Sources */,
+				03568A57201A76BD00B61FAC /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036629B420174DF600AF92E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03038173201944C200B5E8F0 /* RegisterMealViewController.swift in Sources */,
+				03D1D149201A2E1400596DA3 /* MealDetailsViewController.swift in Sources */,
+				03D1D14C201A6F5200596DA3 /* Alerts.swift in Sources */,
+				036629C420174DF600AF92E4 /* Rango.xcdatamodeld in Sources */,
+				036629BE20174DF600AF92E4 /* ViewController.swift in Sources */,
+				03E6A03B20175AA3005CD921 /* FoodCollectionViewCell.swift in Sources */,
+				036629BC20174DF600AF92E4 /* AppDelegate.swift in Sources */,
+				0303817520194A3D00B5E8F0 /* ViewController+CoreData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03568A5D201A76BD00B61FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03568A51201A76BD00B61FAC /* Rangos */;
+			targetProxy = 03568A5C201A76BD00B61FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03568A58201A76BD00B61FAC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03568A59201A76BD00B61FAC /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		036629BF20174DF600AF92E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036629C020174DF600AF92E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036629C720174DF600AF92E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036629C820174DF600AF92E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03568A5F201A76BD00B61FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Rangos/Rangos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF4G5DZZMF;
+				INFOPLIST_FILE = Rangos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Rango.Rangos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03568A60201A76BD00B61FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Rangos/Rangos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF4G5DZZMF;
+				INFOPLIST_FILE = Rangos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Rango.Rangos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		036629CB20174DF600AF92E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036629CC20174DF600AF92E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036629CE20174DF600AF92E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790D2A20EFC49753FA2834C0 /* Pods-Rango.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rango/Rango.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF4G5DZZMF;
+				INFOPLIST_FILE = Rango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Rango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036629CF20174DF600AF92E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CFC6B39EED0EB4EE6FB478 /* Pods-Rango.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rango/Rango.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF4G5DZZMF;
+				INFOPLIST_FILE = Rango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.Rango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03568A61201A76BD00B61FAC /* Build configuration list for PBXNativeTarget "Rangos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03568A5F201A76BD00B61FAC /* Debug */,
+				03568A60201A76BD00B61FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036629B320174DF600AF92E4 /* Build configuration list for PBXProject "Rango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036629CB20174DF600AF92E4 /* Debug */,
+				036629CC20174DF600AF92E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036629CD20174DF600AF92E4 /* Build configuration list for PBXNativeTarget "Rango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036629CE20174DF600AF92E4 /* Debug */,
+				036629CF20174DF600AF92E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		036629C220174DF600AF92E4 /* Rango.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				036629C320174DF600AF92E4 /* Rango.xcdatamodel */,
+			);
+			currentVersion = 036629C320174DF600AF92E4 /* Rango.xcdatamodel */;
+			path = Rango.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 036629B020174DF600AF92E4 /* Project object */;
+}
